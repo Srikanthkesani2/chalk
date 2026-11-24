@@ -125,7 +125,7 @@ Specifies the level of color support.
 
 Color support is automatically detected, but you can override it by setting the `level` property. You should however only do this in your own code as it applies globally to all Chalk consumers.
 
-If you need to change this in a reusable module, create a new instance:
+If you need to change this in a reusable module, create a new object
 
 ```js
 import {Chalk} from 'chalk';
